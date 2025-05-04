@@ -1,0 +1,24 @@
+{
+  "name": "lwe8-textile",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "node ./build.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "type": "module",
+  "devDependencies": {
+    "@types/node": "^22.15.3",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "hast-util-from-html": "^2.0.3",
+    "hast-util-to-html": "^9.0.5",
+    "lwe8-build": "^0.2.0",
+    "lwe8-textile-core": "^0.1.0",
+    "lwe8-textile-types": "^0.1.1",
+    "unist-util-visit": "^5.0.0"
+  }
+}
