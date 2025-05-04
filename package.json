@@ -1,12 +1,14 @@
 {
   "name": "lwe8-textile",
   "version": "0.1.0",
-  "description": "",
+  "description": "Textile Parser",
   "scripts": {
     "build": "node ./build.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Textile"
+  ],
+  "author": "Pho Thin Mg <phothinmg@disroot.org>",
   "license": "MIT",
   "type": "module",
   "devDependencies": {
@@ -20,5 +22,16 @@
     "lwe8-textile-core": "^0.1.0",
     "lwe8-textile-types": "^0.1.1",
     "unist-util-visit": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phothinmg/lwe8-textile.git"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
+  "bugs": {
+    "url": "https://github.com/phothinmg/lwe8-textile/issues"
   }
 }
