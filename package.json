@@ -8,6 +8,12 @@
   "keywords": [
     "Textile"
   ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    }
+  },
   "author": "Pho Thin Mg <phothinmg@disroot.org>",
   "license": "MIT",
   "type": "module",
